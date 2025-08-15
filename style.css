@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Makes layout math easier */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    /* Use Roboto as the main font */
+    display: flex;
+    flex-direction: column;
+    /* Stack our main sections vertically */
+}
+
+
+/* style.css */
+
+.header-hero-wrapper {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    /* White-ish text color for contrast */
+    padding: 16px 120px;
+    /* Add some space around the content */
+}
+
+/* --- Header Styling --- */
+.header {
+    display: flex;
+    justify-content: space-between;
+    /* Pushes logo and links to opposite ends */
+    align-items: center;
+    /* Vertically aligns them */
+    margin-bottom: 80px;
+    /* Space between header and hero content */
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    /* While not specified, logos are usually bold */
+    color: #F9FAF8;
+}
+
+.header-links {
+    list-style-type: none;
+    /* Removes bullet points */
+    display: flex;
+    gap: 24px;
+    /* Space between the links */
+}
+
+a {
+    text-decoration: none;
+    /* Removes underline from links */
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+/* --- Hero Styling --- */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 48px;
+    /* Space between text and image */
+    padding-bottom: 80px;
+}
+
+.hero-text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    /* As per style guide */
+    color: #F9FAF8;
+}
+
+.hero-text p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+button {
+    /* General button style */
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: none;
+    padding: 8px 32px;
+    border-radius: 8px;
+    /* Rounded corners */
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.hero-image {
+    width: 500px;
+    height: 200px;
+    background-color: #6d747c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* style.css */
+
+.info-section {
+    padding: 48px 0;
+    /* Space top/bottom */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center the content */
+}
+
+.info-section h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    margin-bottom: 48px;
+}
+
+.info-container {
+    display: flex;
+    gap: 48px;
+    /* Space between the items */
+    text-align: center;
+    /* Center the text below the boxes */
+}
+
+.info-item {
+    width: 150px;
+}
+
+.info-image {
+    width: 150px;
+    height: 150px;
+    border: 4px solid #3882F6;
+    /* Blue border */
+    border-radius: 15px;
+    /* Rounded corners */
+    margin-bottom: 8px;
+}
+
+/* style.css */
+
+.quote-section {
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+    /* Lots of space to make the quote stand out */
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    /* 'light' usually corresponds to 300 */
+    color: #1F2937;
+}
+
+.quote-author {
+    font-weight: bold;
+    font-size: 24px;
+    color: #1F2937;
+    align-self: flex-end;
+    /* Pushes the author to the right */
+    margin-top: 8px;
+}
+
+
+/* style.css */
+
+.cta-section {
+    padding: 80px 120px;
+}
+
+.cta-box {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 40px 80px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-box button {
+    border: 2px solid #F9FAF8;
+    /* White border on the button */
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 32px 0;
+}
